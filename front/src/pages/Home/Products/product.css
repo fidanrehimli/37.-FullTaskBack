@@ -1,0 +1,36 @@
+.products{
+    display: flex;
+    justify-content: space-around;
+    
+
+    ul{
+        display: flex;
+        gap: 50px;
+    }
+    .hr{
+        width: 600px;
+    }
+   
+}
+.imgProduct{
+    width: 300px;
+    height: 300px;
+}
+.datas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.titletext{
+    text-align: center;
+}
+.pricetext{
+    text-align: center;
+}
+.deletebtn{
+   width: 100px;
+   height: 30px;
+   border-radius: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+}

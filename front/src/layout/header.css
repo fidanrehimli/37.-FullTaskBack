@@ -1,0 +1,35 @@
+.active{
+    color: red;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+    h1{
+        font-size: 40px;
+    }
+    .point{
+        color: blue;
+    }
+
+    ul{
+        padding: 20px;
+        display: flex;
+        gap: 40px;
+    }
+    .searchinp{
+        width: 200px;
+        height: 25px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .signInbtn{
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        background-color: rgb(37,119,253);
+    }
+}

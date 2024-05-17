@@ -1,0 +1,36 @@
+.image{
+    background: url("https://preview.colorlib.com/theme/estore/assets/img/hero/hero_man.png");
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+    background-size: contain;
+}
+
+.box{
+    background-color: rgb(200,235,255);
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text{
+    color: rgb(37,119,253);
+    font-size: 30px;
+}
+.wintertext{
+    font-size: 80px;
+    margin-top: 10px;
+}
+.besttext{
+    color: rgb(49,54,83);
+    font-size: 20px;
+}
+.shopbtn{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(37,119,253);
+    border: none;
+    border-radius: 20px;
+}
