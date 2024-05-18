@@ -36,7 +36,7 @@ const Products = () => {
           <div className='productDiv' key={elem._id}>
             <img className='imgProduct' src={elem.imgSRC} alt=''/>
             <br/>
-            <CiStar className='yellow'/>
+            <CiStar className='yellow' style={{color:"yellow"}}/>
             <CiStar className='yellow' />
             <CiStar className='yellow' />
             <CiStar className='gray' />

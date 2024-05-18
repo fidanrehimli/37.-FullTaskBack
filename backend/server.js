@@ -59,7 +59,7 @@ app.get("/products",async(req,res)=>{
 //! Delete
 app.delete("/products/:id",async(req,res)=>{
    try{
-    const {id}=req.params.id
+    const {id}=req.params
     const product= await Product.findByIdAndDelete(id)
     res.status(200).send(product)
    }catch (err){

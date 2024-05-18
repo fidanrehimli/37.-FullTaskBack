@@ -34,3 +34,9 @@
     color: white;
     border: none;
 }
+.datas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
