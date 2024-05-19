@@ -5,7 +5,7 @@ const ImageSec = () => {
     <section>
     <div className='box'>
         <div className='image'></div>
-        <div>
+        <div className='textbox'>
             <h3 className='text'>60% Discount</h3>
             <h1 className='wintertext'>Winter<br/>Collection</h1>
             <h2 className='besttext'>Best Cloth Collection By 2020!</h2>

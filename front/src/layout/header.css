@@ -1,6 +1,9 @@
 .active{
     color: red;
 }
+.menu{
+    display: none;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -32,4 +35,22 @@ header{
         color: white;
         background-color: rgb(37,119,253);
     }
+}
+
+@media screen and (max-width:400px) {
+    nav{
+        display:none
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+   header {
+    display: flex;
+    justify-content: space-between;
+   } h1{
+        font-size: 30px;
+
+    }
+    
 }

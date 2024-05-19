@@ -7,6 +7,7 @@ import Latest from './pages/Latest/Latest'
 import Blog from './pages/Blog/Blog'
 import Pages from './pages/Pages/Pages'
 import Contact from './pages/Contact/Contact'
+import Form from './pages/Form/Form'
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
         <Route path='blog' element={<Blog />} />
         <Route path='pages' element={<Pages />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='form' element={<Form/>} />
+
       </Routes>
 
     </>

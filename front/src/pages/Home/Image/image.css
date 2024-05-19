@@ -34,3 +34,29 @@
     border: none;
     border-radius: 20px;
 }
+@media screen and (max-width:400px) {
+    .image{
+        display: none;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .wintertext{
+        font-size: 25px;
+    }
+    .besttext{
+        font-size: 10px;
+    }
+    .box{
+       justify-content: flex-start;
+       padding-left: 25px;
+       padding-bottom: 30px;
+    }
+    .shopbtn{
+        margin-top: 15px;
+        width: 90px;
+        height: 40px;
+    }
+
+
+}

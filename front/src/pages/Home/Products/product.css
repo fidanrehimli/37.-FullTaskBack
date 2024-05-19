@@ -7,9 +7,7 @@
         display: flex;
         gap: 50px;
     }
-    .hr{
-        width: 600px;
-    }
+
    
 }
 .imgProduct{
@@ -17,8 +15,9 @@
     height: 300px;
 }
 .datas{
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
+    gap: 10px;
 }
 .titletext{
     text-align: center;
@@ -33,10 +32,39 @@
     background-color: red;
     color: white;
     border: none;
+    margin-left: 40px;
 }
 .datas{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.line{
+    border: 1px solid rgb(239,239,239);
+}
+button{
+    width: 90px;
+    height: 20px;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 20px;
+}
+.search{
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+
+}
+.detailbtn{
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
 }

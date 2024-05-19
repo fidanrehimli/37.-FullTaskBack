@@ -1,111 +1,181 @@
 .shoptext {
-    text-align: center;
-    margin-top: 200px;
-    font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 50px;
 }
 
 .photo {
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
 }
 
 .img1 {
-    margin-top: 50px;
-    background: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat1.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 700px;
-    height: 500px;
+  margin-top: 50px;
+  background: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 500px;
 
-    .womentext{
-        text-align: center;
-        margin-left: 300px;
-        margin-top: 100px;
-        font-size: 40px;
-    }
-    .dealsbtn{
-        width: 150px;
-        height: 40px;
-        border: none;
-        background-color: rgb(255,206,37);
-        color: black;
-        border-radius: 15px;
-        text-align: center;
-        margin-left: 380px;
-        margin-top: 20px;
-        font-weight: 600;
-    }
-    .collectext{
-        text-align: center;
-        margin-left: 300px;
-        color: blue;
-        font-family: cursive;
-        font-weight: 800;
-    }
+  .womentext {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+   margin-top: 80px;
+    font-size: 40px;
+  }
+  .dealsbtn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 206, 37);
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+   margin-left: 250px;
+    font-weight: 600;
+  }
+  .collectext {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    color: blue;
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 30px;
+  }
 }
 
 .img2 {
-    margin-top: 50px;
-    background: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat2.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 700px;
-    height: 500px;
+  margin-top: 50px;
+  background: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 500px;
 
-    .distext{
-        margin-top: 100px;
-        text-align: center;
-        margin-left: 300px;
-        color: blue;
-        font-family: cursive;
-        font-weight: 800;
-    }
-    .wintertext{
-        text-align: center;
-        margin-left: 300px;
-        font-size: 40px;
-    }
-    .coltext{
-        font-weight: 400;
-        text-align: center;
-        margin-left: 300px;
-margin-top: 20px;
-    }
+  .distext {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 300px;
+    color: blue;
+    font-family: cursive;
+    font-weight: 800;
+  }
+  .wintertext {
+    text-align: center;
+    margin-left: 300px;
+    font-size: 40px;
+  }
+  .coltext {
+    font-weight: 400;
+    text-align: center;
+    margin-left: 300px;
+  }
 }
-.img3{
+.img3 {
+  margin-top: 50px;
+  background: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* width: 500px; */
+  height: 500px;
+
+  .mantext {
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+  .dealsbtn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 206, 37);
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 380px;
+    font-weight: 600;
+  }
+
+  .newtext {
+    text-align: center;
+    margin-left: 300px;
+    color: blue;
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .shoptext {
     margin-top: 50px;
-    background: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat3.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 700px;
+    font-size: 30px;
+  }
+  .photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img1 {
+    margin-top: 50px;
+    /* width: 400px; */
     height: 500px;
 
-    .mantext{
-        text-align: center;
-        margin-left: 300px;
-        margin-top: 100px;
-        font-size: 40px;
+    .womentext {
+      margin-left: 150px;
+      margin-top: 50px;
     }
-    .dealsbtn{
-        width: 150px;
-        height: 40px;
-        border: none;
-        background-color: rgb(255,206,37);
-        color: black;
-        border-radius: 15px;
-        text-align: center;
-        margin-left: 380px;
-        margin-top: 20px;
-        font-weight: 600; 
+    .dealsbtn {
+      width: 120px;
+      height: 40px;
+      margin-left: 220px;
     }
+    .collectext {
+      margin-left: 200px;
+    }
+  }
+  .img2 {
+    margin-top: 10px;
+    /* width: 400px; */
+    height: 500px;
+    .distext {
+      margin-top: 50px;
+      margin-left: 150px;
+    }
+    .wintertext {
+      margin-left: 170px;
+      font-size: 30px;
+    }
+    .coltext {
+      text-align: center;
+      margin-left: 150px;
+    }
+  }
+  .img3 {
+    margin-top: 10px;
+    /* width: 400px; */
+    height: 500px;
 
-    .newtext{
-        text-align: center;
-        margin-left: 300px;
-        color: blue;
-        font-family: cursive;
-        font-weight: 800;
-        font-size: 25px;
+    .mantext {
+      margin-top: 50px;
+      margin-left: 150px;
+      font-size: 30px;
     }
+    .dealsbtn {
+      width: 120px;
+      height: 40px;
+      margin-left: 200px;
+    }
+    .newtext {
+      margin-left: 220px;
+      font-size: 22px;
+    }
+  }
 }

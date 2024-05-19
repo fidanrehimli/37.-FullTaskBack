@@ -1,0 +1,27 @@
+.boxes {
+  height: 300px;
+  margin-top: 40px;
+  background-color: rgb(223, 241, 255);
+  display: flex;
+  justify-content: space-around;
+}
+.img {
+  background: url("https://preview.colorlib.com/theme/estore/assets/img/collection/latest-man.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+}
+.emailinp {
+    margin-top: 100px;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+}
+.shopbtn {
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+}

@@ -3,6 +3,10 @@ import {Helmet} from "react-helmet";
 import ImageSec from './Image/ImageSec';
 import Shop from './Shop/Shop';
 import Products from './Products/Products';
+import New from './News/New';
+import Footer from '../../layout/Footer';
+import Foot from '../../layout/Foot';
+import End from '../../layout/End';
 const Home = () => {
   return (
     <div>
@@ -14,6 +18,10 @@ const Home = () => {
             <ImageSec/>
             <Shop/>
             <Products/>
+            <New/>
+            <Footer/>
+            <Foot/>
+            <End/>
     </div>
   )
 }
